@@ -1,3 +1,0 @@
-fastapi
-uvicorn
-vercel-fastapi
