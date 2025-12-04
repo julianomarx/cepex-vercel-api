@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "buildCommand": "pip install -r requirements.txt",
+  "installCommand": "",
+  "framework": null,
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.py" }
+  ]
+}
