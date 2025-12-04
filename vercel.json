@@ -1,9 +1,15 @@
 {
-  "version": 3,
-  "buildCommand": "pip install -r requirements.txt",
-  "installCommand": "",
-  "framework": null,
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.py",
+      "use": "@vercel/python"
+    }
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.py" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.py"
+    }
   ]
 }
