@@ -9,7 +9,7 @@ app.use(cors());
 
 const POSSIBLE_LABELS = {
   cep: ["CEP", "Postal Code"],
-  rua: ["Rua", "Address", "Av/Rua", "Rua/ Avenida", "Logradouro", "Endereço"],
+  rua: ["Rua", "Address", "Av/Rua", "Rua / Av.", "Rua/ Avenida", "Logradouro", "Endereço"],
   bairro: ["Bairro", "Neighborhood"],
   cidade: ["Cidade", "City", "cidade"],
   estado: ["Estado", "State"],
