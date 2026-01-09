@@ -13,7 +13,7 @@ const POSSIBLE_LABELS = {
   bairro: ["Bairro", "Neighborhood"],
   cidade: ["Cidade", "City", "cidade"],
   estado: ["Estado", "State"],
-  complemento: ["Complemento", "Complement"]
+  complemento: ["Complemento", "Complement", "Complemento (Complement)"]
 };
 
 const HOTELS_CSV =
